@@ -22,6 +22,6 @@ jobs:
     - name: Build
       run: dotnet build --configuration Release --no-restore
     - name: Resharper
-      uses: "Tylertron1998/resharper-actions@v0.9.1"
+      uses: "Tylertron1998/resharper-actions@v0.9"
       with:
         SLN_DIR: "./ResharperActionsTestProject"
