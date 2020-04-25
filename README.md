@@ -1,3 +1,4 @@
 ResharperActionsTestProject
 test
 test
+test
