@@ -20,4 +20,5 @@ jobs:
     - name: Resharper
       uses: "Tylertron1998/resharper-actions@v0.9"
       with:
-        SLN_DIR: "./ResharperActionsTestProject"
+        SLN_DIR: "./ResharperActionsTestProject.sln"
+        FAILURE_LEVEL: "WARNING"
