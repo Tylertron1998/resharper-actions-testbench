@@ -22,3 +22,4 @@ jobs:
       with:
         SLN_DIR: "./ResharperActionsTestProject.sln"
         FAILURE_LEVEL: "WARNING"
+    - run: "inspectcode ./ResharperActionsTestProject.sln -o=./output.xml"
